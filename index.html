@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #comingSoon {
+            height: 100vh;
+            background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('gifmain.gif');
+            background-position: right center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        #comingSoon img {
+            width: 170px;
+            margin-bottom: 30px;
+        }
+
+        #comingSoon .holder {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        #comingSoon h1 {
+            font-weight: bolder;
+            font-size: 60px;
+        }
+
+        #comingSoon .contact {
+            margin-top: 35vh;
+        }
+
+        #comingSoon a {
+            color: #105fef !important;
+            font-weight: bolder;
+        }
+
+        @media (max-width: 768.98px) {
+            #comingSoon {
+                background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('gifmain.gif');
+                background-position: 110px -70px;
+                background-size: contain;
+            }
+
+            #comingSoon h1 {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="comingSoon">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 holder">
+                    <div class="w-100">
+                        <img src="logo.png">
+                        <h1>Coming soon.</h1>
+                        <p>
+                            We beleive good things take time and quality is not our only standart. So please wait while
+                            we are building our website.
+                        </p>
+                        <p class="contact">
+                            Feel free to contact us if you have any questions: <br>
+                            <a class="mr-3" href="mailto:info@enigma.az">info@enigma.az</a>
+                            <a href="tel:+994504156585">+994 50 415 65 85</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
